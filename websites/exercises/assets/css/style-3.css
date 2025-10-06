@@ -395,28 +395,47 @@ p {
     line-height: 1.7;
     margin-bottom: 12px;
 }
+.section-1 {
+/* style rules here */
+}
+.introduction {
+/* style rules here */
+}
+• video-gallery {
+/* style rules here */
+}
+.section-1 {
+background-color: lemonchiffon;
+}
+.section-2 {
+background: lightgreen,
+}
+.section-3 {
+background: lightblue;
+ }
+.section-4 {
+background: darkblue;
+}
+.section-5 {
+background: lightcoral;
+}
 
 .section-1 {
-    background-color: lemonchiffon;
+background-color: var (--trend-300);
 }
-
 .section-2 {
-    background-color: lightgreen;
+background-color: var (-- sky-200) ;
 }
-
 .section-3 {
-    background-color: lightblue;
+background-color: var (--lime-300);
 }
-
 .section-4 {
-    background-color: darkblue;
+background-color: var(--trend-700);
 }
-
 .section-4 h2,
 .section-4 p {
-    color: white;
+color:#fff;
 }
-
 .section-5 {
-    background-color: lightcoral;
+background-color: var (--purple-300);
 }
